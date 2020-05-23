@@ -4,7 +4,7 @@ defmodule Ussd do
   """
 
   @doc """
-  Machine
+  Ussd
 
   ## Examples
 
@@ -25,7 +25,7 @@ defmodule Ussd do
 
   """
 
-  @session_id_exception 'session_id needs to be set before ussd machine can run.'
+  @session_id_exception 'session_id needs to be set before ussd can run.'
 
   def request(request) do
     request
