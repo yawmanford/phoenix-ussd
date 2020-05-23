@@ -8,7 +8,7 @@ defmodule Ussd do
 
   ## Examples
 
-      iex> Ussd.machine
+      iex> Ussd.machine()
       Machine
 
   """
