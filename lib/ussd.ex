@@ -8,8 +8,7 @@ defmodule Ussd do
 
   ## Examples
 
-      iex> 
-           |> Ussd.request(%{msisdn: "233544909356", network: "mtn", session_id: "12345678", input: "*123"})
+      iex> |> Ussd.request(%{msisdn: "233544909356", network: "mtn", session_id: "12345678", input: "*123"})
            |> Ussd.state(Hello)
            |> Ussd.run()
            %{
